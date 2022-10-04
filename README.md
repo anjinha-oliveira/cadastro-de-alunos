@@ -4,7 +4,7 @@ Esse é um projeto do processo seletivo da MACH1 onde tenho que fazer uma págin
 para cadastrar alunos de uma escola. 
 
 A proposta é fazer uma página simples em HTML e CSS de cadastro para que pessoas com pouco conhecimento
-infórmatica possam usar sem problemas. 
+informática possam usar sem problemas. 
   
 Segue o link do layout e especificações:
 
