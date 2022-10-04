@@ -108,35 +108,33 @@
       <form>
         <div class="row">
           <div class="col">
-            <label for="exampleFormControlInput1" class="form-label">Nome</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" 
-              placeholder="Digite o nome do aluno">
+            <label for="id_nome" class="form-label">Nome *</label>
+            <input type="text" class="form-control" id="id_nome" 
+              placeholder="Digite o nome do aluno" required>
           </div>
           <div class="col">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" 
-              placeholder="name@example.com">
+            <label for="id_email" class="form-label">Email *</label>
+            <input type="email" class="form-control" id="id_email" 
+              placeholder="name@example.com" required>
           </div>
         </div>
         <div class="row">
           <div class="col mt-3"> 
-            <label for="exampleFormControlInput1" class="form-label">CPF</label>
-            <input type="number" class="form-control" id="exampleFormControlInput1" 
-              placeholder="000.000.000-00">
+            <label for="id_cpf" class="form-label">CPF *</label>
+            <input type="text" class="form-control" id="id_cpf" 
+              placeholder="000.000.000-00" required>
           </div>
           <div class="col mt-3">
-            <label for="exampleFormControlInput1" class="form-label">Curso</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" 
-              placeholder="Curso do aluno">
+            <label for="id_curso" class="form-label">Curso *</label>
+            <input type="text" class="form-control" id="id_curso" 
+              placeholder="Curso do aluno" required>
           </div>
         </div>
         <div class="row">
           <div class="col text-center mt-5">
-            <button type="button" class="btn btn-primary">
+            <button type="submit" class="btn btn-primary">
               Cadastrar
             </button>
-
-          </div>
           </div>
         </div>
       </form>
